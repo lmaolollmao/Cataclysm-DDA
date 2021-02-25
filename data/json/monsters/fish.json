@@ -64,7 +64,7 @@
     "fear_triggers": [ "PLAYER_CLOSE", "SOUND" ],
     "death_function": [ "NORMAL" ],
     "harvest": "fish_tiny",
-    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC" ]
+    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC", "HARDTOSHOOT" ]
   },
   {
     "id": "mon_fish_small",
@@ -95,7 +95,7 @@
     "fear_triggers": [ "PLAYER_CLOSE", "SOUND" ],
     "death_function": [ "NORMAL" ],
     "harvest": "fish_small",
-    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC" ]
+    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC", "HARDTOSHOOT" ]
   },
   {
     "id": "mon_fish_medium",
@@ -126,7 +126,7 @@
     "fear_triggers": [ "PLAYER_CLOSE", "SOUND" ],
     "death_function": [ "NORMAL" ],
     "harvest": "fish_small",
-    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC" ]
+    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC", "HARDTOSHOOT" ]
   },
   {
     "id": "mon_fish_large",
@@ -157,7 +157,7 @@
     "fear_triggers": [ "SOUND", "PLAYER_CLOSE" ],
     "death_function": [ "NORMAL" ],
     "harvest": "fish_large",
-    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC" ]
+    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC", "HARDTOSHOOT" ]
   },
   {
     "id": "mon_fish_huge",
@@ -188,7 +188,7 @@
     "fear_triggers": [ "PLAYER_CLOSE", "SOUND" ],
     "death_function": [ "NORMAL" ],
     "harvest": "fish_large",
-    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC" ]
+    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC", "HARDTOSHOOT" ]
   },
   {
     "id": "mon_fish_trout",
@@ -508,7 +508,7 @@
     "baby_flags": [ "SUMMER", "AUTUMN" ],
     "fear_triggers": [ "PLAYER_CLOSE", "SOUND" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC" ]
+    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC", "HARDTOSHOOT" ]
   },
   {
     "id": "mon_fish_crayfish",
@@ -538,7 +538,7 @@
     "fear_triggers": [ "PLAYER_CLOSE", "SOUND" ],
     "death_function": [ "NORMAL" ],
     "upgrades": { "half_life": 14, "into": "mon_crayfish_small" },
-    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC" ]
+    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC", "HARDTOSHOOT" ]
   },
   {
     "id": "mon_fish_blinky",
@@ -565,7 +565,7 @@
     "fear_triggers": [ "PLAYER_CLOSE", "SOUND" ],
     "death_function": [ "NORMAL" ],
     "harvest": "fish_small",
-    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC" ]
+    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC", "HARDTOSHOOT" ]
   },
   {
     "id": "mon_fish_eel",
@@ -592,7 +592,7 @@
     "fear_triggers": [ "PLAYER_CLOSE", "SOUND" ],
     "death_function": [ "NORMAL" ],
     "harvest": "fish_small",
-    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC" ]
+    "flags": [ "FISHABLE", "SEES", "SMELLS", "WARM", "SWIMS", "AQUATIC", "HARDTOSHOOT" ]
   },
   {
     "id": "mon_crayfish_small",
@@ -714,7 +714,7 @@
     "reproduction": { "baby_egg": "egg_fish", "baby_count": 1, "baby_timer": 6 },
     "baby_flags": [ "SPRING" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "SWIMS", "AQUATIC" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "SWIMS", "AQUATIC", "HARDTOSHOOT" ]
   },
   {
     "id": "mon_mutant_salmon",
@@ -743,7 +743,7 @@
     "reproduction": { "baby_egg": "egg_fish", "baby_count": 2, "baby_timer": 150 },
     "baby_flags": [ "AUTUMN" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "SWIMS", "AQUATIC" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "SWIMS", "AQUATIC", "HARDTOSHOOT" ]
   },
   {
     "id": "mon_sewer_fish",
@@ -774,6 +774,6 @@
     "baby_flags": [ "SPRING", "SUMMER", "AUTUMN", "WINTER" ],
     "path_settings": { "max_dist": 5 },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "WARM", "AQUATIC" ]
+    "flags": [ "SEES", "SMELLS", "WARM", "AQUATIC", "HARDTOSHOOT" ]
   }
 ]
